@@ -425,7 +425,7 @@ output = dev.execute('show run')
 Executes a command on the device and returns the json formatted datastructure input for, for example:
 
 ```python
-output = dev.parse('show run')
+output = dev.parse('show running-config')
 ```
 
 Can also pass in file of raw text with the following:
