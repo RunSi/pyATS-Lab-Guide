@@ -431,9 +431,9 @@ output = dev.parse('show running-config')
 Can also pass in file of raw text with the following:
 
 ```python
-output = open(pre_filename, newline='') as f:
-output = f.read()
-output = dev.parse(command, output=output)
+with open(pre_filename, newline='') as f:
+    output = f.read()
+parsed_output = dev.parse(command, output=output)
 ```
 
 ### .learn()
