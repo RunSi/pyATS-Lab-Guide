@@ -448,6 +448,13 @@ output = dev.learn('ospf')
 
 DQ stands for dictionary query and allows you to run specific queries with a very simple syntax. For more information on this refer to the documentation [here](https://pubhub.devnetcloud.com/media/genie-docs/docs/userguide/utils/index.html)
 
+```python
+from genie.utils import Dq
+output = dev.parse('show ip route')
+output.q.contains('S').get_values('routes')
+```
+
+
 ### .diff()
 
 Used often to show the difference between two outputs
