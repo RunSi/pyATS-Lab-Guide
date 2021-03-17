@@ -1,0 +1,16 @@
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet1       10.0.2.15       YES DHCP   up                    up      
+GigabitEthernet2       192.168.100.20  YES other  up                    up      
+GigabitEthernet3       unassigned      YES unset  up                    up      
+Loopback10             172.17.10.1     YES other  up                    up      
+Loopback20             172.17.20.1     YES other  up                    up      
+Loopback30             172.17.30.1     YES other  up                    up      
+Loopback40             172.17.40.1     YES other  up                    up      
+Loopback50             172.17.50.1     YES other  up                    up      
+Loopback60             172.17.60.1     YES other  up                    up      
+Tunnel0                172.17.10.1     YES unset  up                    up      
+Tunnel1                172.17.20.1     YES unset  up                    up      
+Tunnel2                172.17.30.1     YES unset  up                    up      
+nve1                   unassigned      YES unset  up                    up      
+nve2                   unassigned      YES unset  up                    up      
+nve3                   unassigned      YES unset  up                    up

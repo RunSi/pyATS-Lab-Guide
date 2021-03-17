@@ -202,7 +202,7 @@ The robot framework allows us to incorporate a bit more automation within our py
 You can find the robot test plans by going into the `exercise2/robot-tests` directory
 
 ```
-cd exercise2/robot-tests
+cd tests/exercise2/robot-tests
 ```
 
 Lets take a further look at the test cases now. First open up the file robot_initial_snapshot.robot and you should see something similar to the below.
@@ -252,7 +252,7 @@ As we're looking to compare from our baseline to our most recent snapshot it mig
 Now we understand what the test case is doing lets run the profile. Use the command below, this time passing the compare test case we just looked at.
 
 ```bash
-robot --outputdir run robot_compare_snapshot.robot`
+robot --outputdir run robot_compare_snapshot.robot
 ```
 
 ![](./images/robot-compare.gif)
