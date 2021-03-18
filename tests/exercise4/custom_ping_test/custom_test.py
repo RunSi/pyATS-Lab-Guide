@@ -17,7 +17,7 @@ from unicon.core.errors import TimeoutError, StateMachineError, ConnectionError
 logger = logging.getLogger(__name__)
 
 # List of addresses to ping:
-ping_list = ['10.10.20.50']
+ping_list = ['172.31.0.1']
 
 ###################################################################
 #                  COMMON SETUP SECTION                           #

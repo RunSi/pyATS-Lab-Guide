@@ -19,7 +19,7 @@ def main(runtime):
 
     # run script
     run(
-        testscript=os.path.join(SCRIPT_PATH, "ping_test.py"),
+        testscript=os.path.join(SCRIPT_PATH, "custom_test.py"),
         runtime=runtime,
         taskid="Ping",
     )
