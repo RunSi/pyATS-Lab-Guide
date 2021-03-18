@@ -15,5 +15,5 @@ def main(runtime):
     run(
         testscript=os.path.join(SCRIPT_PATH, "custom_route_test.py"),
         runtime=runtime,
-        taskid="Running vs. Startup",
+        taskid="Route Checks",
     )
